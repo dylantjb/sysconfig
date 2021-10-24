@@ -4,8 +4,7 @@ Before=sleep.target
 
 [Service]
 User=%I
-Environment=XAUTHORITY=/run/user/1000/Xauthority
-Environment=DISPLAY=:1
+Environment=DISPLAY=:0
 ExecStart=/usr/bin/slock
 ExecStartPost=/usr/bin/sleep 1
 

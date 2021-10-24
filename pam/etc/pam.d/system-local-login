@@ -5,5 +5,5 @@ account   include   system-login
 password  include   system-login
 session   include   system-login
 
-auth     optional  pam_gnupg.so store-only
-session  optional  pam_gnupg.so
+auth      optional  pam_gnupg.so
+session   optional  pam_gnupg.so
